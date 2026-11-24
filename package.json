@@ -1,0 +1,28 @@
+{
+  "name": "automated-multi-environment-cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vindyacharuni/automated-multi-environment-cicd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vindyacharuni/automated-multi-environment-cicd/issues"
+  },
+  "homepage": "https://github.com/vindyacharuni/automated-multi-environment-cicd#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "supertest": "^7.3.2"
+  }
+}
