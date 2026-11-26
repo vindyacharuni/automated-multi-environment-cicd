@@ -1,0 +1,9 @@
+services: 
+  app: 
+    container_name: cicd-dev-app
+    environment: 
+      NODE_ENV: development
+      PORT: 3000
+    ports: !override
+      - "3001:3000"
+

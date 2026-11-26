@@ -1,0 +1,9 @@
+services:
+   app:
+     image: ghcr.io/vindyacharuni/automated-multi-environment-cicd:latest
+     container_name: cicd-compose-app
+     env_file: 
+       - .env  
+     ports:
+       - "3000:3000"
+     restart: unless-stopped

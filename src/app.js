@@ -4,7 +4,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        message: 'Hello! Welcome to our DevOps CI/CD project.',
+        message: 'Hello! Welcome to our Updated DevOps CI/CD project-version 2.',
         environment: process.env.APP_ENV || 'local',
         status: 'running'
     });
